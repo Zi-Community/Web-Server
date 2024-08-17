@@ -1,0 +1,14 @@
+# Ignore file lua.lua
+test.lua
+
+# Ignore direktori temp dan semua file di dalamnya
+temp/
+
+# Ignore file log.txt di direktori logs
+logs/log.txt
+
+# Ignore semua file dengan ekstensi .tmp
+*.tmp
+
+# Tapi unggah file temp.txt
+!temp.txt
